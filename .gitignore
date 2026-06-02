@@ -10,3 +10,6 @@ venv/
 # SQLite
 *.db
 instance/
+**/instance/
+*.sqlite
+*.sqlite3
