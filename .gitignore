@@ -10,3 +10,13 @@ venv/
 # SQLite
 *.db
 instance/
+
+# refactor-arch skill fixtures and outputs
+synthetic/**/Gemfile.lock
+synthetic/**/vendor/
+synthetic/**/.bundle/
+synthetic/**/go.sum
+synthetic/**/target/
+**/instance/
+*.sqlite
+*.sqlite3
